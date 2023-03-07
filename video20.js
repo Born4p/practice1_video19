@@ -1,7 +1,15 @@
 "use strict";
 
-if (4 == 9) {
-    console.log('Ok!');
-}else{
-    console.log('error');
+const num = 50;
+
+switch (num) {
+    case 49: 
+        console.log('No');
+        break;
+    case 100:
+        console.log('No');
+        break;
+    default:
+        console.log('Not this time');
+        break;
 }
