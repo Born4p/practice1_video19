@@ -1,11 +1,11 @@
 const numberOfFilms = +prompt('How many films you already watched?', '');
 
 const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
+	count: numberOfFilms,
+	movies: {},
+	actors: {},
+	genres: [],
+	privat: false
 };
 
 // const a = prompt("Last film", ''),
@@ -16,7 +16,7 @@ const personalMovieDB = {
 // personalMovieDB.movies[a] = b;
 
 for (let i = 0; i < numberOfFilms; i++) {
-    personalMovieDB.movies[prompt("Last film? ", '')] = prompt("Mark? ", '');
+	personalMovieDB.movies[prompt('Last film? ', '')] = prompt('Mark? ', '');
 }
 
 console.log(personalMovieDB.movies);
