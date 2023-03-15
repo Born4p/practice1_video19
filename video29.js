@@ -30,8 +30,8 @@ const personalMovieDB = {
 
 function rememberMyFilms(){
 	for (let i = 0; i < numberOfFilms; i++) {
-		const a = prompt('Last film? ', ''),
-			b = prompt('Mark? ', '');
+		const a = prompt('Last film? ', '').trim(),
+			b = prompt('Mark? ', '').trim();
 		if (a != null && b != null && a != '' && b != '' && a.length < 50 && b.length < 50) {
 			console.log('дякую за відповідь!');
 			alert('дякую за відповідь!');

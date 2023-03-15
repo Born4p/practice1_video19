@@ -11,7 +11,7 @@ function calculateVolumeAndArea (value){
 	
 }
 
-//calculateVolumeAndArea (5);
+calculateVolumeAndArea (5);
 
 
 function getCoupeNumber (number) {
@@ -23,7 +23,7 @@ function getCoupeNumber (number) {
 		return console.log(Math.ceil(number / 4));
 	}
 }
-//getCoupeNumber (100);
+getCoupeNumber (100);
 
 function getTimeFromMinutes(time) {
 	if (!Number.isInteger(time) || time < 0) return 'Ошибка, проверьте данные';
